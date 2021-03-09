@@ -29,4 +29,25 @@ mutation {
     views
   }
 }
+
+query {
+  getCourse(id: "6047c53509a5cb03a4d54277") {
+    id
+    title
+  }
+}
+
+query {
+  getCourses {
+    id
+    title
+  }
+}
+
+query {
+  getCourses(page: 1, limit: 3) {
+    id
+    title
+  }
+}
 ```
