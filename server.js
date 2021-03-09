@@ -13,7 +13,8 @@ const userResolvers = require("./resolvers/user.resolvers");
 
 
 mongoose.connect("mongodb://localhost/graphql_db_course", {
-  useNewUrlParser: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 const app = express();

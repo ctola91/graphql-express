@@ -2,7 +2,7 @@ module.exports = `
     type User {
         id: ID!
         email: String!
-        hashedPassword: String
+        password: String
         token: String
     }
 
